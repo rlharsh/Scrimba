@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>We are the Champions</title>
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- Begin Header Section -->
+        <section class="header" id="app-header">
+            <img class="header-image" src="./assets/images/freddie.png" alt="Silhouette of musician Freddie Mercury with arm raised high in the air.">
+            <h1 class="strong-text-light-header">We are the Champions</h1>
+        </section>
+        <!-- End Header Section -->
+
+        <!-- Begin Endorsement Section -->
+        <section class="form" id="app-form">
+
+            <!-- Begin Endorsement Submission Form -->
+            <form action="">
+                <!-- Begin Endorsement Input-->
+                <textarea placeholder="Write your endorsement here" name="endorsement" id="user-endorsement"></textarea>
+                <!-- End Endorsement Input -->
+
+                <!-- Begin User(s) Section -->
+                <div class="from-to">
+                    <input placeholder="from" class="input-text" type="text" name="from-to-from" id="user-endorsement-from">
+                    <input placeholder="to" class="input-text" type="text" name="from-to-to" id="user-endorsement-to">
+                </div>
+                <!-- End User(s) Section -->
+
+                <!-- Begin Publish Button -->
+                <button id="submit-endorsement">
+                    Publish
+                </button>
+                <!-- End Publish Button -->
+
+            </form>
+            <!-- End Endorsement Submission Form -->
+
+        </section>
+        <!-- End Endorsement Section -->
+
+        <!-- Begin User Endorsements -->
+        <section class="endorsements" id="user-endorsements">
+            <h2 class="strong-text-light-h2">- Endorsements -</h2>
+
+
+            <!-- Begin Endorsements Listing-->
+            <section class="endorsements-listing" id="user-endorsements-listing">
+
+            </section>
+            <!-- End Endorsements Listing-->
+
+        </section>
+        <!-- End User Endorsements -->
+
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
